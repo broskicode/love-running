@@ -37,7 +37,8 @@ h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -69,8 +70,8 @@ h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2
- {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 
 }
@@ -130,19 +131,20 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    
+
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    
+
 }
+
 #center-about {
     width: 33%;
     margin: 0 auto;
-    
+
 }
 
 hr {
@@ -170,22 +172,22 @@ hr {
 }
 
 .right-about-heading h2 {
-    text-align:right;
+    text-align: right;
 }
 
 .right-about-heading p {
-    text-align:right;
+    text-align: right;
 }
 
 #welcome {
     text-align: center;
     margin: 20px 0;
-    font-size:200%
+    font-size: 200%
 }
 
 #circle-container {
-    width:300px;
-    height:300px;
+    width: 300px;
+    height: 300px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
@@ -209,4 +211,22 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
+
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+
+#times h2 {
+    color: #fafafa;
 }
